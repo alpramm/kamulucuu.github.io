@@ -1,5 +1,7 @@
 <html>
-    <link href="css/w3.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css"/>
     <title>4U</title>
 <style>
     h2 {
@@ -18,5 +20,15 @@ h1 {
             <video width="600" height="600" controls>
                 <source src="css/video4.mp4" type="video/mp4">
         </center>
+    </div>
+    <script>
+        function openmenu(namaMenu) {
+            var i;
+            var x = document.getElementsByClassName("Menu");
+            for (i = 0;i < x.length;i++){
+                x[i].style.display ="none";
+            }
+        document.getElementById(namaMenu).style.display ="block";
+        }
+    </script>
 </html>
-    
